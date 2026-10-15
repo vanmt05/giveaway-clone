@@ -1,0 +1,14 @@
+appId: com.ivand.sorteos
+productName: Sorteos
+directories:
+  buildResources: resources
+files:
+  - out/**/*
+win:
+  signAndEditExecutable: false
+  target:
+    - target: nsis
+      arch: [x64]
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
